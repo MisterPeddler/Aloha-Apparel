@@ -19,7 +19,6 @@
 }*/
 
 .container{
-max-width:600px;
 margin: 0 auto;
 }
 
@@ -77,7 +76,7 @@ header{
   font-family: 'raleway';
   font-weight: bold;
   font-size: 24px;
-  padding-top: 200px;
+  padding-top:40%
 }
 
 .spring{
@@ -89,6 +88,7 @@ header{
 .secondHero{
   text-align:center;
   /*position: relative;*/
+  padding: 0 30px;
 }
 
 .secondHero p, .updates p{
@@ -176,13 +176,31 @@ img {
   /*position: relative;*/
   background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),url(../images/wave-bkgd.jpg) no-repeat center bottom;
   margin-bottom:10px;
+  padding: 0 30px;
 }
 
 .updates h2{
   color:white;
   margin-top:70px;
   text-shadow: 2px 2px 8px #969696;
+
 }
+
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px; 
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    outline:none;
+}
+
+
+
+
+
+
 
 .contactInfo{
   text-align:center;
@@ -202,6 +220,8 @@ text-align: center;
 
 .socialName{
   display:none;
+  font-family: raleway;
+  font-weight:normal;
 }
 
 .year{
@@ -235,25 +255,35 @@ footer p{
 @media screen and (min-width: 600px) {
 
   .socialList{
-  margin-top: 40px;
+  margin-top: 65px;
   text-align: left;
   }
 
   .socialIcon{
     color:white;
-    display:inline-block;
-    margin: 0px 6px 0px 6px;
+    display:block;
     font-size: 18px;
   }
 
   .socialName{
     display:inline-block;
-    floar:left;
-    clear:right;
+    margin-left: 5px;
+    /*text-align: left;*/
   }
 
   .socialList li{
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .socialList i{
+    min-width: 25px;
+  }
+
+  .socialList{
     float:right;
+    display:block;
+    padding-right: 10px;
   }
 
 
@@ -297,6 +327,7 @@ footer p{
   .contactInfo{
     float:left;
     text-align:left;
+    padding-left: 10px;
   }
 
 
@@ -313,26 +344,51 @@ footer p{
 
 }
 
-/*
+
 @media screen and (min-width: 1240px) {
+
+  .collection{
+    font-family: 'raleway';
+    font-weight: bold;
+    font-size: 24px;
+    padding-top:15%
+  }
+
+  .secondHero{
+    padding: 0 350px;
+  }
+
+  .updates{
+      padding: 0 350px;
+  }
+
+.container{
+margin: 0 auto;
+max-width: 1240px;
+}
 
   .productList li{
     width: 25%;
   }
 
-  .hero{
-    text-align:center;
-    clear:both;
-    background:
-    linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-    url(../images/banner-girl.png) no-repeat center 60px,url(../images/flower-bkgd.jpg) center top;
-    background-size: cover, 250px 615px, contain;
-    height:550px;
-    /*position: relative;*/
-  }
-/*
-  .tabletContainer{
-    max-width: 1240px;
-  }*/
+.hero{
+  text-align:center;
+  clear:both;
+  background:
+  linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+  url(../images/banner-girl.png) no-repeat center 60px,url(../images/flower-bkgd.jpg) center top;
+  background-size: cover, 250px 615px, contain;
+  height:550px;
+  /*position: relative;*/
+}
+
+.socialList{
+  padding-right: 60px;
+}
+
+.contactInfo{
+  padding-left: 40px;
+}
+
 
 }

@@ -23,11 +23,12 @@ margin: 0 auto;
 }
 
 body{
-  font-size: 14px;
+  font-size: 14px
 }
 
 a{
   color:white;
+  outline:none;
 }
 
 p{font-family: 'raleway'}
@@ -44,7 +45,7 @@ h1{
 
 header{
   height:80px;
-  padding-top: 15px;
+  padding-top: 20px;
   margin: 0 auto;
 }
 
@@ -67,8 +68,7 @@ header{
   linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
   url(../images/banner-girl.png) no-repeat center 85px,url(../images/flower-bkgd.jpg) center top;
   background-size: cover, 189px 463px, cover;
-  height:510px;
-  /*position: relative;*/
+  height:535px;
   color:white;
 }
 
@@ -76,7 +76,7 @@ header{
   font-family: 'raleway';
   font-weight: bold;
   font-size: 24px;
-  padding-top:40%
+  padding-top:36%
 }
 
 .spring{
@@ -88,15 +88,15 @@ header{
 .secondHero{
   text-align:center;
   /*position: relative;*/
-  padding: 0 30px;
+  padding: 70px 30px;
 }
 
-.secondHero p, .updates p{
+.secondHero p{
   font-size: 20px;
   margin-top: 28px;
   line-height: 200%;
-  margin-bottom:74px;
 }
+
 
 .updates p{
   color:white;
@@ -105,7 +105,7 @@ header{
 h2{
   font-size: 42px;
   font-style: italic;
-  margin-top: 72px;
+  /*margin-top: 80px;*/
 }
 
 .bold{
@@ -146,12 +146,13 @@ h3{
 
 .productList{
   text-align:center;
+  padding: 70px 30px;
 }
 
 .productList ul{
   list-style:none;
   margin: 0 auto;
-  margin-bottom: 70px;
+  /*margin-bottom: 70px;*/
 }
 
 .productList li{
@@ -172,28 +173,70 @@ img {
 .updates{
   clear:both;
   text-align:center;
-  height:344px;
+  /*height:450px;*/
   /*position: relative;*/
   background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),url(../images/wave-bkgd.jpg) no-repeat center bottom;
   margin-bottom:10px;
-  padding: 0 30px;
+  padding: 70px 30px;
 }
 
 .updates h2{
   color:white;
-  margin-top:70px;
-  text-shadow: 2px 2px 8px #969696;
+  /*margin-top:80px;*/
+  text-shadow: 3px 3px 5px #969696;
+}
 
+.updates p{
+  font-size: 20px;
+  margin-top: 30px;
+  line-height: 200%;
+  margin-bottom:50px;
 }
 
 
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px; 
-    margin: 8px 0;
-    box-sizing: border-box;
+form{
+  border-radius: 30px;
+  height:54px;
+  min-width:500px;
+  margin:0 auto;
+  background-color: white;
+  /*margin-bottom:50px;*/
+}
+
+input{
+    height:52px;
+    width:310px;
+    /*box-sizing: border-box;*/
     border: none;
+    outline: none;
+    /*background-color: green;*/
+    float:left;
+    margin-left: 30px;
+    font-family: raleway;
+    font-size: 20px;
+    color:#969696;
     outline:none;
+}
+
+
+button{
+  background-color:#e2574c;
+  border:none;
+  height:85%;
+  border-radius:25px;
+  font-family: raleway;
+  font-weight: bold;
+  font-size: 20px;
+  color:white;
+  padding: 0 20px;
+  margin: 4px 5px 0 0;
+  /*margin-top: 3px;*/
+  float:right;
+  outline:none;
+}
+
+button:hover, button:focus{
+  background-color: #b64036;
 }
 
 
@@ -228,11 +271,12 @@ text-align: center;
   color:white;
   margin-bottom: 20px;
   line-height: 125%;
-  margin-top: 65px;
+  margin-top: 80px;
 }
 
 .phoneEmail{
   color:white;
+
 }
 
 .address{
@@ -241,7 +285,7 @@ text-align: center;
 }
 
 footer{
-  height:350px;
+  height: 400px;
   background-color:#242424;
   /*position:relative;*/
 }
@@ -252,6 +296,9 @@ footer p{
   line-height: 150%;
 }
 
+
+
+/*
 @media screen and (min-width: 600px) {
 
   .socialList{
@@ -268,7 +315,6 @@ footer p{
   .socialName{
     display:inline-block;
     margin-left: 5px;
-    /*text-align: left;*/
   }
 
   .socialList li{
@@ -379,7 +425,6 @@ max-width: 1240px;
   url(../images/banner-girl.png) no-repeat center 60px,url(../images/flower-bkgd.jpg) center top;
   background-size: cover, 250px 615px, contain;
   height:550px;
-  /*position: relative;*/
 }
 
 .socialList{
@@ -392,3 +437,4 @@ max-width: 1240px;
 
 
 }
+*/

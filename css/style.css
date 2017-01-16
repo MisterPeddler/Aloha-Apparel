@@ -314,42 +314,59 @@ text-align: center;
 ###########################################################################################################
 */
 
-/*
+
 @media screen and (min-width: 600px) {
 
-h2{
-  margin-top: 0px;
-}
+/*HEADER ###########################################*/
 
-h3{
-  font-size: 30px;
-  width:80%;
-  margin:25px auto 0;
-}
-
-  .spring{
-    font-size: 55px;
-    margin-top: 30px;
+  header{
+    height:50px;
+    padding: 20px 12px;
+    /*margin: 0 auto;*/
   }
 
-  .hero{
-    background-size: cover, 156px 378px, cover;
-    height:450px;
+  .alohaLogo{
+    float:left;
+    width:140px;
   }
+
+  .cartLogo{
+    float:right;
+    width: 55px;
+  }
+
+  /*HERO ############################################*/
+
 
   .collection{
-    padding-top: 26%;
+    font-size: 22px;
+    padding-top: 150px;
   }
 
-  .secondHero p, .updates p{
+  .spring{
+    font-size: 50px;
+    margin-top: 25px;
   }
+
+  /*SECOND HERO #####################################*/
+
+  h2{
+    font-size: 38px;
+  }
+
+  .secondHero{
+    padding: 54px 20px;
+  }
+
+  .secondHero p{
+    font-size: 19px;
+    margin-top: 22px;
+  }
+
+  /* PRODUCT LIST #######################################*/
 
   .productList{
-    padding: 60px 30px 140px 30px
-  }
-
-  .productList h2{
-    margin-bottom: 10px;
+    margin-bottom: 90px;
   }
 
   .productList li{
@@ -358,113 +375,106 @@ h3{
   }
 
   .productImage{
-  width:80%;
+    margin-top: 42px;
+    width:80%;
+    max-width: 320px;
   }
 
-  form{
-    border-radius: 30px;
-    height:54px;
-    width:20%;
-    margin:0 auto;
-    background-color: white;
+  .productCategory{
+    font-size: 12px;
+    margin-top: 30px;
   }
 
-      .contactInfo{
-        float:left;
-        text-align:left;
-        padding-left: 10px;
-      }
-
-    .socialList{
-      margin-top: 65px;
-      text-align: left;
-      }
-
-    .socialIcon{
-      color:white;
-      display:block;
-      font-size: 18px;
-    }
-
-    .socialName{
-      display:inline-block;
-      margin-left: 5px;
-    }
-
-    .socialList li{
-      display: block;
-      margin-bottom: 20px;
-    }
-
-    .socialList i{
-      min-width: 25px;
-    }
-
-    .socialList{
-      float:right;
-      display:block;
-      padding-right: 10px;
-    }
-
-
-    footer{
-      padding-left: 10px;
-    }
-
-
-
-
-
-
-
-
-}
-
-/*
-@media screen and (min-width: 1240px) {
-
-  .collection{
-    font-family: 'raleway';
-    font-weight: bold;
+  h3{
     font-size: 24px;
-    padding-top:15%
+    margin-top: 20px;
   }
 
-  .secondHero{
-    padding: 0 350px;
+  .productPrice{
+    font-size: 16px;
+    margin-top: 20px;
   }
 
-  .updates{
-      padding: 0 350px;
-  }
+/*UPATES ##########################################*/
 
-.container{
-margin: 0 auto;
-max-width: 1240px;
+
+/* UPDATES #########################################*/
+
+.updates{
+  clear:both;
+  text-align:center;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),url(../images/wave-bkgd.jpg) no-repeat center bottom;
+  margin-bottom:10px;
+  padding: 65px 5px;
 }
 
-  .productList li{
-    width: 25%;
-  }
+.updates p{
+  /**/
+  font-size: 18px;
 
-.hero{
-  text-align:center;
-  clear:both;
-  background:
-  linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-  url(../images/banner-girl.png) no-repeat center 60px,url(../images/flower-bkgd.jpg) center top;
-  background-size: cover, 250px 615px, contain;
-  height:550px;
+  margin-top: 25px;
+  margin-bottom:25px;
+}
+
+
+form{
+  height:50px;
+  width:70%;
+  max-width: 460px;
+}
+
+button{
+  font-size: 16px;
+}
+
+/*FOOTER ##########################################*/
+
+footer{
+  padding: 65px 30px;
+}
+footer p{
+  font-size: 16px;
 }
 
 .socialList{
-  padding-right: 60px;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.socialIcon{
+  display:block;
+  font-size: 16px;
+}
+
+.socialName{
+  display:inline-block;
+  font-size: 16px;
+}
+
+.socialList li{
+  display: block;
+  margin-bottom: 14px;
+}
+
+.socialList i{
+  min-width: 25px;
+  margin-right: 5px;
+}
+
+.socialList{
+  float:right;
+  display:block;
 }
 
 .contactInfo{
-  padding-left: 40px;
+  float:left;
+  text-align:left;
 }
 
 
 }
-*/
+
+
+@media screen and (min-width: 1240px) {
+
+}

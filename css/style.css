@@ -248,7 +248,6 @@ footer{
 
 footer p{
   font-family: 'playfair';
-  /*font-size: 1rem;*/
   line-height: 150%;
 }
 
@@ -280,7 +279,6 @@ footer p{
   color:white;
   display:inline;
   margin: 0px 6px 0px 6px;
-  /*font-size: 1rem;*/
 }
 
 .social-icon:hover, .social-icon:focus{
@@ -367,7 +365,6 @@ h3{
 }
 
 .product-price{
-  /*font-size: 1rem;*/
   margin-top: 20px;
 }
 
@@ -388,21 +385,10 @@ form{
   max-width: 460px;
 }
 
-input{
-  /*font-size: 1rem;*/
-}
-
-button{
-  /*font-size: 1rem;*/
-}
-
 /*FOOTER ##########################################*/
 
 footer{
   padding: 60px 30px;
-}
-footer p{
-  /*font-size: 1rem;*/
 }
 
 .social-list{
@@ -412,12 +398,10 @@ footer p{
 
 .social-icon{
   display:block;
-  /*font-size: 1rem;*/
 }
 
 .social-name{
   display:inline-block;
-  /*font-size: 1rem;*/
 }
 
 .social-list li{

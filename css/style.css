@@ -1,4 +1,8 @@
 
+html{
+  font-size:14px;
+  color:#2d2d2d;
+}
 
 /*Document Wide Rules*/
 .clearfix:before,
@@ -31,7 +35,7 @@ h1{
 }
 
 h2{
-  font-size: 34px;
+  font-size: 2.5rem;
   font-style: italic;
 }
 
@@ -43,7 +47,7 @@ h2{
 /*HEADER  #####################################*/
 
 header{
-  padding: 12px;
+  padding: 14px;
 }
 
 .header-container{
@@ -79,7 +83,7 @@ header{
 .collection{
   font-family: 'raleway';
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.3rem;
   padding-top: 140px;
 }
 
@@ -141,23 +145,22 @@ hr{
 
 .product-category{
   font-weight: bold;
-  font-size: 11px;
+  font-size: 0.75rem;
   color:#969696;
 }
 
 h3{
-  font-size: 24px;
+  font-size: 1.6rem;
   color:#e2574c;
-  margin-top: 15px;
   margin: 20px auto 0 auto;
   max-width: 70%;
 }
 
 .product-price{
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: bold;
   color:#969696;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 /* UPDATES #########################################*/
@@ -177,7 +180,7 @@ h3{
 
 .updates p{
   color:white;
-  font-size: 16px;
+  font-size: 1.1rem;
   margin-top: 20px;
   line-height: 200%;
   margin-bottom:28px;
@@ -201,7 +204,7 @@ input{
   float:left;
   margin-left: 30px;
   font-family: raleway;
-  font-size: 14px;
+  font-size: 1.1rem;
   color:#969696;
   outline:none;
 }
@@ -218,7 +221,7 @@ button{
   border-radius:25px;
   font-family: raleway;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 1.1rem;
   color:white;
   padding: 0 20px;
   margin: 4px 5px 0 0;
@@ -245,7 +248,7 @@ footer{
 
 footer p{
   font-family: 'playfair';
-  font-size: 14px;
+  /*font-size: 1rem;*/
   line-height: 150%;
 }
 
@@ -277,7 +280,7 @@ footer p{
   color:white;
   display:inline;
   margin: 0px 6px 0px 6px;
-  font-size: 14px;
+  /*font-size: 1rem;*/
 }
 
 .social-icon:hover, .social-icon:focus{
@@ -295,6 +298,10 @@ footer p{
 
 /*HEADER ###########################################*/
 
+html{
+  font-size: 16px;
+}
+
 header{
   padding: 20px 30px;
 }
@@ -310,19 +317,19 @@ header{
 /*HERO ############################################*/
 
 .collection{
-  font-size: 22px;
+  font-size: 1.4rem;
   padding-top: 150px;
 }
 
 .spring{
-  font-size: 50px;
+  font-size: 3.3rem;
   margin: 25px auto 0 auto;
 }
 
 /*SECOND HERO #####################################*/
 
 h2{
-  font-size: 38px;
+  font-size: 2.4rem;
 }
 
 .second-hero{
@@ -330,7 +337,7 @@ h2{
 }
 
 .second-hero p{
-  font-size: 19px;
+  font-size: 1.2rem;
 }
 
 /* PRODUCT LIST #######################################*/
@@ -351,7 +358,7 @@ h2{
 }
 
 .product-category{
-  font-size: 12px;
+  font-size: 0.75rem;
   margin-top: 20px;
 }
 
@@ -360,7 +367,7 @@ h3{
 }
 
 .product-price{
-  font-size: 16px;
+  /*font-size: 1rem;*/
   margin-top: 20px;
 }
 
@@ -371,7 +378,7 @@ h3{
 }
 
 .updates p{
-  font-size: 18px;
+  font-size: 1.1rem;
   margin: 25px auto;
 }
 
@@ -382,11 +389,11 @@ form{
 }
 
 input{
-  font-size: 16px;
+  /*font-size: 1rem;*/
 }
 
 button{
-  font-size: 16px;
+  /*font-size: 1rem;*/
 }
 
 /*FOOTER ##########################################*/
@@ -395,7 +402,7 @@ footer{
   padding: 60px 30px;
 }
 footer p{
-  font-size: 16px;
+  /*font-size: 1rem;*/
 }
 
 .social-list{
@@ -405,12 +412,12 @@ footer p{
 
 .social-icon{
   display:block;
-  font-size: 16px;
+  /*font-size: 1rem;*/
 }
 
 .social-name{
   display:inline-block;
-  font-size: 16px;
+  /*font-size: 1rem;*/
 }
 
 .social-list li{
@@ -436,6 +443,10 @@ footer p{
 }
 
 @media screen and (min-width: 1240px) {
+
+  html{
+    font-size: 16px;
+  }
 
 /*HEADER ###########################################*/
 
@@ -464,7 +475,7 @@ background-size: cover, 250px 615px, contain;
 }
 
 .spring{
-  font-size: 66px;
+  font-size: 4.1rem;
 }
 
 /*SECOND HERO #####################################*/
@@ -502,14 +513,13 @@ background-size: cover, 250px 615px, contain;
 }
 
 h3{
-  font-size: 26px;
+  font-size: 1.625rem;
 }
 
 /*UPDATES ###################################*/
 
 .updates p{
   max-width:670px;
-
 }
 
 /*FOOTER ##########################################*/

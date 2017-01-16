@@ -9,6 +9,7 @@
 
 .container{
 margin: 0 auto;
+max-width: 1160px;
 }
 
 
@@ -47,7 +48,7 @@ font-weight: bold;
 /*HEADER  #####################################*/
 
 header{
-  height:50px;
+  /*height:50px;*/
   padding: 12px;
   /*margin: 0 auto;*/
 }
@@ -87,8 +88,9 @@ header{
 .spring{
   font-family: 'playfair';
   font-size: 35px;
-  margin-top: 30px;
+  margin: 30px auto 0 auto;
   text-shadow: 2px 2px 4px #969696;
+  max-width:670px;
 }
 
 
@@ -164,6 +166,10 @@ h3{
   font-size: 24px;
   color:#e2574c;
   margin-top: 15px;
+
+
+    margin: 20px auto 0 auto;
+    max-width: 70%;
 }
 
 .productPrice{
@@ -194,6 +200,7 @@ h3{
   margin-top: 20px;
   line-height: 200%;
   margin-bottom:28px;
+  max-width:670px;
 }
 
 
@@ -320,8 +327,8 @@ text-align: center;
 /*HEADER ###########################################*/
 
   header{
-    height:50px;
-    padding: 20px 12px;
+    /*height:50px;*/
+    padding: 20px 30px;
     /*margin: 0 auto;*/
   }
 
@@ -360,7 +367,8 @@ text-align: center;
 
   .secondHero p{
     font-size: 19px;
-    margin-top: 22px;
+    margin: 22px auto 0px auto;
+    max-width:650px;
   }
 
   /* PRODUCT LIST #######################################*/
@@ -382,11 +390,11 @@ text-align: center;
 
   .productCategory{
     font-size: 12px;
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   h3{
-    font-size: 24px;
+    font-size: 26px;
     margin-top: 20px;
   }
 
@@ -396,9 +404,6 @@ text-align: center;
   }
 
 /*UPATES ##########################################*/
-
-
-/* UPDATES #########################################*/
 
 .updates{
   clear:both;
@@ -411,9 +416,7 @@ text-align: center;
 .updates p{
   /**/
   font-size: 18px;
-
-  margin-top: 25px;
-  margin-bottom:25px;
+  margin: 25px auto;
 }
 
 
@@ -423,6 +426,10 @@ form{
   max-width: 460px;
 }
 
+input{
+  font-size: 16px;
+}
+
 button{
   font-size: 16px;
 }
@@ -430,7 +437,7 @@ button{
 /*FOOTER ##########################################*/
 
 footer{
-  padding: 65px 30px;
+  padding: 60px 30px;
 }
 footer p{
   font-size: 16px;
@@ -476,5 +483,135 @@ footer p{
 
 
 @media screen and (min-width: 1240px) {
+
+  /*HEADER ###########################################*/
+
+    header{
+      /*height:50px;*/
+      padding: 16px 30px;
+      /*margin: 0 auto;*/
+    }
+
+    .alohaLogo{
+      float:left;
+      width:160px;
+    }
+
+    .cartLogo{
+      float:right;
+      width: 65px;
+    }
+
+
+    /*HERO  ##########################################*/
+
+
+    .hero{
+      background:
+      linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+      url(../images/banner-girl.png) no-repeat center 60px,url(../images/flower-bkgd.jpg) center top;
+      background-size: cover, 250px 615px, contain;
+      padding: 75px 0px;
+    }
+
+
+      .collection{
+        font-size: 22px;
+        padding-top: 150px;
+      }
+
+      .spring{
+        font-size: 66px;
+        margin-top: 25px;
+      }
+
+      /*SECOND HERO #####################################*/
+
+      h2{
+        font-size: 38px;
+      }
+
+      .secondHero{
+        padding: 54px 20px;
+        text-align: center;;
+      }
+
+      .secondHero p{
+        font-size: 19px;
+        margin: 24px auto 0px auto;
+        max-width:650px;
+      }
+
+      /* PRODUCT LIST #######################################*/
+
+      .productList{
+        margin-bottom: 54px;
+      }
+
+      .productList ul{
+        max-width:1240px;
+      }
+      .productList li{
+        float:left;
+        width: 25%;
+      }
+
+      .productImage{
+        margin-top: 42px;
+        width:80%;
+        max-width: 260px;
+      }
+
+      .productCategory{
+        font-size: 12px;
+        margin-top: 12px;
+      }
+
+      h3{
+        font-size: 26®px;
+        margin-top: 20px;
+      }
+
+      .productPrice{
+        font-size: 16px;
+        margin-top: 20px;
+      }
+
+      .updates{
+        clear:both;
+        text-align:center;
+        background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),url(../images/wave-bkgd.jpg) no-repeat center bottom;
+        margin-bottom:10px;
+        padding: 65px 5px;
+      }
+
+      .updates p{
+        /**/
+        font-size: 18px;
+        max-width:670px;
+        margin: 25px auto;
+
+      }
+
+
+      form{
+        height:50px;
+        width:70%;
+        max-width: 460px;
+      }
+
+      button{
+        font-size: 16px;
+      }
+
+      /*FOOTER ##########################################*/
+
+      footer{
+        padding: 65px 120px 65px 70px;
+      }
+      footer p{
+        font-size: 16px;
+      }
+
 
 }

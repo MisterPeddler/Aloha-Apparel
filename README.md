@@ -1,3 +1,4 @@
-#Project 1
+# Aloha Shop
+A basic single page scratch built website.
 
-This is a demo project and this file is a place holder.
+![aloha screenshot](/aloha_screenshot/logo.png)

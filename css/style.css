@@ -53,15 +53,16 @@ header{
 .header-container{
   max-width: 1160px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .aloha-logo{
-  float:left;
   width:120px;
 }
 
 .cart-logo{
-  float:right;
   width: 50px;
   cursor:pointer;
 }
@@ -189,20 +190,21 @@ h3{
 
 form{
   border-radius: 30px;
-  height:44px;
-  width:90%;
+  height:40px;
+  width:80%;
   margin:0 auto;
   background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4px 0 20px;
 }
 
 input{
   height:90%;
-  width:50%;
+  width:70%;
   border: none;
   outline: none;
-  background: transparent;
-  float:left;
-  margin-left: 30px;
   font-family: raleway;
   font-size: 1.1rem;
   color:#969696;
@@ -224,8 +226,6 @@ button{
   font-size: 1.1rem;
   color:white;
   padding: 0 20px;
-  margin: 4px 5px 0 0;
-  float:right;
   outline:none;
 }
 
@@ -243,7 +243,7 @@ footer{
 
 .footer-container{
   max-width: 1130px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 
 footer p{
@@ -301,7 +301,7 @@ html{
 }
 
 header{
-  padding: 20px 30px;
+  padding: 16px 30px;
 }
 
 .aloha-logo{
@@ -382,18 +382,33 @@ h3{
 form{
   height:50px;
   width:70%;
-  max-width: 460px;
+  max-width: 400px;
+}
+
+input{
+  font-size: 1rem;
+}
+
+button{
+  font-size: 1rem;
 }
 
 /*FOOTER ##########################################*/
 
 footer{
-  padding: 60px 30px;
+  padding: 66px 30px;
+}
+
+.footer-container{
+display:flex;
+flex-direction:row;
+justify-content: space-between;
 }
 
 .social-list{
   text-align: left;
   margin-top: 0px;
+
 }
 
 .social-icon{
@@ -405,7 +420,6 @@ footer{
 }
 
 .social-list li{
-  display: block;
   margin-bottom: 14px;
 }
 
@@ -414,13 +428,13 @@ footer{
   margin-right: 5px;
 }
 
+
+
 .social-list{
-  float:right;
   display:block;
 }
 
 .contact-info{
-  float:left;
   text-align:left;
 }
 
